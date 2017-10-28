@@ -1,0 +1,206 @@
+// Place all the styles related to the dukdam controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+    background-color: #E1E1E1;
+}
+
+// Header
+nav.navbar.navbar-expand-lg {
+    padding: 10px 80px;
+}
+
+img.home {
+    width: 25px;
+    height: 25px;
+    margin-top: 6px;
+}
+
+a.nav-link {
+    color: white;
+}
+
+// Selection
+.selection-container {
+    width: 600px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.selection-header {
+    margin: 0 auto;
+}
+
+.btn-white {
+    background-color: white;
+    border-color: white;
+    padding-right: 100px;
+    padding-left: 110px;
+    color: #868e96;
+}
+
+#selection-hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.btn-outline-secondary {
+    margin-top: 12px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+//Carousel
+.d-block.w-100 {
+    width: 100%;
+    height: 200px;
+}
+
+// Search
+.search_duksung {
+    margin-top: 20px;
+}
+
+.search_duksung_in {
+    color: #F89734;    
+}
+
+.search-input {
+    border: 2px solid #F89734;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.search-form {
+    border-radius: 2px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.addon-white {
+    border-radius: 2px;
+    background-color: white;
+}
+
+// Content
+.content-container {
+    margin-top: 40px;
+}
+
+.content-row {
+    margin-top: 20px;
+}
+
+.btn-orange {
+    background-color: #F89734;
+    color: white;
+}
+
+.more {
+    margin: 0 auto;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+// Information
+.information-container {
+    width: 750px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.btn-dark {
+    padding: 3px 8px;
+    margin-top: 10px;
+}
+
+.information-header {
+    margin-top: 16px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.information-image {
+    width: 250px;
+    height: 250px;
+}
+
+.information-content-parent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.information-content {
+    margin:0 30px;
+    padding: 0 10px;
+    color: #F89734;
+}
+
+.detail-content {
+    margin-top: 16px;
+}
+
+.apply {
+    margin-right: 15px;
+    margin-left: 40px;
+    padding: 8px 60px; 
+}
+
+button.btn .btn-orange .scrap {
+    background-color: white;
+    color: #F89734;
+    border-color: #F89734;
+}
+
+//Login
+.login_title {
+    text-align: center;
+}
+
+.first_title {
+    color: #F89734;
+}
+
+.card.login {
+    width: 400px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.card-title.login {
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.input-group.login-input {
+    margin-top: 15px;
+    width: 320px;
+    height: 48px;
+}
+
+.btn.btn-warning.sign_in {
+    background-color: #F89734;
+    border-color: #F89734;
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    width: 320px;
+    height: 48px;
+}
+
+.login_group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-left: 40px; //상대적으로 위치 잡기 생각하기...
+    margin-right: 40px; //상대적으로 위치 잡기 생각하기...
+}
+
+.login_signup {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}

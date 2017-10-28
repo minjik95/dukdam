@@ -1,4 +1,13 @@
 Rails.application.routes.draw do
+  root 'dukdam#index'
+  get 'index' => 'dukdam#index'
+  get '/schoolactivities' => 'dukdam#schoolactivities' 
+  get '/scholarship' => 'dukdam#scholarship'
+  get '/detailpage' => 'dukdam#detailpage'
+  get '/signin' => 'dukdam#signin'
+  get '/signup' => 'dukdam#signup'
+  #Model name : users인 디바이스 사용.
+  devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
