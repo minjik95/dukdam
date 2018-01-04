@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#https://github.com/jomno/can-rolify-devise-active_admin
+#위의 링크를 통해 cancancan rolify 등을 사용해서 역할 부임하는 것 합시다.!
+
 gem 'bootstrap', '~> 4.0.0.beta'
 #devise-login,sign up
 gem 'devise'
